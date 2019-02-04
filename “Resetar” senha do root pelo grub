@@ -1,0 +1,11 @@
+
+1 – Reinicie o computador
+2 – Selecione a linha do kernel no grub e aperte “e” para editar
+3 – Adicione a seguinte linha no final da linha do kernel
+init=/bin/bash
+4 – Aperte b ou F10 para reboot
+5 – Digite os seguintes comandos
+  mount -n -o remount,rw /
+  passwd
+6 – Digite a nova senha
+  reboot
